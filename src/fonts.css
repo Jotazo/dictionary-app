@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: InterBold;
+  src: url(./assets/fonts/inter/static/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(./assets/fonts/lora/Lora-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: LoraItalic;
+  src: url(./assets/fonts/lora/Lora-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Inconsolata;
+  src: url(./assets/fonts/inconsolata/static/Inconsolata-Regular.ttf);
+}
+
+@font-face {
+  font-family: InconsolataBold;
+  src: url(./assets/fonts/inconsolata/static/Inconsolata-Bold.ttf);
+}

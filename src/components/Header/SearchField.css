@@ -1,0 +1,23 @@
+.search-field-container {
+  position: relative;
+}
+
+.search-field-input {
+  @apply focus:border focus:border-custPurple bg-lightGrey outline-none rounded-2xl dark:bg-secondaryDark;
+
+  width: 100%;
+  padding: 1.5rem 1.25rem;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.search-field-input.error {
+  border: 1px solid var(--red);
+}
+
+.search-field-icon-wrapper {
+  position: absolute;
+  right: 1.5rem;
+}

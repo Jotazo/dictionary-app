@@ -1,0 +1,38 @@
+.font-selector-container {
+  width: 183px;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.font-selector-container.light {
+  background: var(--FFFFFF, #fff);
+  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.font-selector-container.dark {
+  background: #1f1f1f;
+  box-shadow: 0px 5px 30px 0px #a445ed;
+}
+
+.font-text {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+}
+
+.font-text.dark {
+  color: var(--FFFFFF, #fff);
+}
+
+.font-interbold {
+  font-family: InterBold;
+}
+
+.font-lora {
+  font-family: Lora;
+}
+
+.font-inconsolata {
+  font-family: Inconsolata;
+}

@@ -1,0 +1,47 @@
+@import './fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Headings */
+
+.heading-l {
+  @apply text-3xl md:text-[64px];
+
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.heading-m {
+  @apply text-lg md:text-2xl;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.heading-s {
+  @apply md:text-xl;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Body */
+.body-m {
+  @apply text-[15px] md:text-lg;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.body-s {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

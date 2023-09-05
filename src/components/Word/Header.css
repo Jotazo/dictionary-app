@@ -1,0 +1,11 @@
+svg.play-media {
+  @apply w-12 h-12 md:w-[75px] md:h-[75px] cursor-pointer;
+}
+
+svg.play-media:hover > path {
+  @apply fill-custWhite;
+}
+
+svg.play-media:hover > circle {
+  @apply opacity-100;
+}

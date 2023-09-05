@@ -1,0 +1,19 @@
+.loader {
+  @apply w-12 md:w-24 h-12 md:h-24;
+
+  border: 5px solid #a445ed;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
