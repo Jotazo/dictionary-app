@@ -12,7 +12,7 @@ const WordPage = () => {
   const error = useWordStore((state) => state.error)
   const currentPage = useWordStore((state) => state.currentPage)
 
-  if (!firstFetch) return
+  if (!firstFetch) return null
 
   if (loading) return <Loader />
 
