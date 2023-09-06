@@ -20,7 +20,13 @@ Aplicación donde se integra la api [DICTIONARY][DictionaryAPI] para crear un di
   - [Vite][Vite]
   - [Zustand][Zustand]
 
-## Screenshots - WORK IN PROGRESS
+## Screenshots
+> Mockups generados con: [Shots.so][Shots.so]
+
+![Mobile Design](./screenshots/mobile.png)
+![Tablet Design](./screenshots/tablet.png)
+![Laptop Design](./screenshots/laptop.png)
+![Tablet Design](./screenshots/desktop.png)
 
 [AntDesign]: https://ant.design/
 [AppDemo]: https://dictionary-3wmxdjpuu-jotazo.vercel.app/
