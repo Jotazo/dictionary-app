@@ -7,7 +7,7 @@ const App = () => {
   const { font } = useThemeStore((state) => state.fontSelected)
   return (
     <div
-      className={`min-h-screen p-6 md:px-10 dark:bg-primaryDark font-${font} transition-colors duration-500 dark:text-custWhite text-primaryLightDark`}
+      className={`min-h-screen p-6 md:px-10 dark:bg-primaryDark font-${font} transition duration-500 dark:text-custWhite text-primaryLightDark`}
     >
       <div className="mx-auto xl:max-w-3xl">
         <Header />

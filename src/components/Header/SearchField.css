@@ -3,7 +3,7 @@
 }
 
 .search-field-input {
-  @apply focus:border focus:border-custPurple bg-lightGrey outline-none rounded-2xl dark:bg-secondaryDark;
+  @apply transition duration-500 focus:border focus:border-custPurple bg-lightGrey outline-none rounded-2xl dark:bg-secondaryDark;
 
   width: 100%;
   padding: 1.5rem 1.25rem;
